@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Home: View {
+struct Profile: View {
     
     @State  var selectedTab: String = "square.grid.3x3"
     @Namespace var animation
@@ -227,6 +227,7 @@ struct Home: View {
                     }
                 }
             }
+            .padding(.bottom, 20)
         }
     }
 }
@@ -276,3 +277,5 @@ struct TabBarItems: View {
         })
     }
 }
+
+
